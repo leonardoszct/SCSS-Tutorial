@@ -1,0 +1,8 @@
+@mixin font(){
+    color: rgb(83, 83, 83);
+    font-size: 30px;
+}
+
+.text_info {
+    @include font;
+}
